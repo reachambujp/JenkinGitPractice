@@ -19,6 +19,8 @@ public class FireBaseAutomationTest {
 			//WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
+			
+			System.out.println("Pushing code for testing");
 
 			System.out.println("Chrome browser open");
 			driver.get("https://qa-tekarch.firebaseapp.com");
